@@ -1,0 +1,41 @@
+{
+  "name": "mback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.2.0",
+    "google-auth-library": "^8.8.0",
+    "handlebars": "^4.7.7",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "mongoose-type-email": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-apple": "^2.0.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "stripe": "^12.5.0"
+  }
+}
